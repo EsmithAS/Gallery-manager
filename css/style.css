@@ -1,3 +1,9 @@
 .scroll::-webkit-scrollbar {
     display: none;
 }
+
+nav a.router-link-exact-active li{
+  pointer-events: none;
+  background-color: rgba(55,48,163,1);
+  color: #fff;
+}
